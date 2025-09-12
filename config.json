@@ -1,0 +1,7 @@
+{
+  "timeout": 60,
+  "action": "echo 'Unauthorized device detected! MAC: {mac}' >> alerts.log",
+  "network_range": "192.168.1.0/24",
+  "scan_interval_learning": 15,
+  "scan_interval_alarm": 30
+}
